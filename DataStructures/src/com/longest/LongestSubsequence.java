@@ -40,7 +40,7 @@ public class LongestSubsequence {
 		Map<Character, Integer> hashM = new HashMap<>();
 		
 		String max = "";
-		for (String string : list) {
+		for (String string : list) {/*
 
 			boolean isBreak = false;
 			//System.out.println(string);
@@ -73,7 +73,7 @@ public class LongestSubsequence {
 			if(!isBreak)
 			max = max.length() > string.length() ?max:string;
 
-		}
+		*/}
 		
 		System.out.println("Max string in sub sequence is ::"+max);
 
